@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Good coffee, fresh pastries, and a little moment of calm at the fictional Café Cahokia."
+    />
+    <meta name="theme-color" content="#f6f1e8" />
+    <title>Café Cahokia — A little moment of calm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#home" aria-label="Café Cahokia home">
+          <span class="wordmark-icon" aria-hidden="true"><span>c</span></span>
+          <span>Café Cahokia</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#story">Our Story</a>
+          <a href="#visit">Visit Us</a>
+          <a class="nav-visit-link" href="mailto:hello@cafecahokia.example">Come say hello <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="images/Cafe_Cahokia_home.jpg"
+          alt="A warm, sunlit café with timber tables and a welcoming counter"
+          fetchpriority="high"
+        />
+        <span class="image-caption hero-image-caption">Made with AI</span>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> Your neighbourhood pause</p>
+          <h1 id="hero-title">Good coffee.<br />Fresh pastries.<br /><em>A little moment of calm.</em></h1>
+          <p class="hero-copy">
+            Settle in, slow down, and stay a little while. There’s always something good
+            brewing and something warm from the oven.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#menu">Explore the Menu <span aria-hidden="true">→</span></a>
+            <a class="text-link text-link-light" href="#visit">Get in Touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#welcome"><span></span> A little more</a>
+        <p class="hero-note">Thoughtfully made, always welcoming</p>
+      </section>
+
+      <section class="welcome section-wrap" id="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-mark" aria-hidden="true">✳</div>
+        <p class="eyebrow">A good place to land</p>
+        <h2 id="welcome-title">Come as you are.<br /><em>Stay for the good things.</em></h2>
+        <p class="welcome-copy">
+          Café Cahokia is a fictional independent café imagined for unhurried mornings,
+          familiar faces, and the small joy of a really good cup of coffee.
+        </p>
+      </section>
+
+      <section class="highlights" aria-label="What makes Café Cahokia special">
+        <article class="highlight-card">
+          <span class="highlight-number">01</span>
+          <span class="highlight-icon" aria-hidden="true">☕</span>
+          <h3>Good coffee, thoughtfully made</h3>
+          <p>Beautifully balanced espresso and slow mornings, one cup at a time.</p>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-number">02</span>
+          <span class="highlight-icon" aria-hidden="true">✳</span>
+          <h3>Fresh from the oven</h3>
+          <p>Buttery, golden pastries baked in small batches for the day ahead.</p>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-number">03</span>
+          <span class="highlight-icon" aria-hidden="true">♧</span>
+          <h3>In step with the seasons</h3>
+          <p>Comforting plates and little specials inspired by what’s in season.</p>
+        </article>
+        <article class="highlight-card">
+          <span class="highlight-number">04</span>
+          <span class="highlight-icon" aria-hidden="true">♡</span>
+          <h3>Room for everyone</h3>
+          <p>A warm welcome, a cosy corner, and no rush to be anywhere else.</p>
+        </article>
+      </section>
+
+      <section class="menu-section section-wrap" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Made with care, served with a smile</p>
+            <h2 id="menu-title">A little something<br /><em>for every moment.</em></h2>
+          </div>
+          <p class="section-intro">
+            From your first coffee to a long, lazy brunch, there’s always something
+            lovely on the table.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-category">
+            <div class="menu-category-heading">
+              <span class="category-icon" aria-hidden="true">☕</span>
+              <div><p class="eyebrow">The daily ritual</p><h3>Coffee</h3></div>
+            </div>
+            <ul class="menu-list">
+              <li><div><h4>House espresso</h4><p>Rich, mellow, with a little chocolate sweetness</p></div><span>£2.80</span></li>
+              <li><div><h4>Flat white</h4><p>Velvety steamed milk over a double espresso</p></div><span>£3.60</span></li>
+              <li><div><h4>Oat milk cappuccino</h4><p>Soft foam, a cinnamon dusting, your choice of milk</p></div><span>£3.80</span></li>
+              <li><div><h4>Maple oat latte</h4><p>Espresso, creamy oat milk, a touch of maple</p></div><span>£4.20</span></li>
+            </ul>
+            <p class="menu-footnote">Decaf and alternative milks available.</p>
+          </article>
+
+          <article class="menu-category">
+            <div class="menu-category-heading">
+              <span class="category-icon" aria-hidden="true">✳</span>
+              <div><p class="eyebrow">A little afternoon joy</p><h3>Pastries</h3></div>
+            </div>
+            <ul class="menu-list">
+              <li><div><h4>Butter croissant</h4><p>Flaky, golden, and baked fresh each morning</p></div><span>£3.20</span></li>
+              <li><div><h4>Cardamom knot</h4><p>Soft-baked with warming spice and pearl sugar</p></div><span>£3.80</span></li>
+              <li><div><h4>Seasonal fruit danish</h4><p>Crème fraîche and whatever looks lovely today</p></div><span>£4.20</span></li>
+              <li><div><h4>Chocolate rye cookie</h4><p>Dark chocolate, crisp edges, a pinch of sea salt</p></div><span>£2.80</span></li>
+            </ul>
+            <p class="menu-footnote">Baked in small batches throughout the day.</p>
+          </article>
+
+          <article class="menu-category">
+            <div class="menu-category-heading">
+              <span class="category-icon" aria-hidden="true">♧</span>
+              <div><p class="eyebrow">Slow down and stay</p><h3>Brunch</h3></div>
+            </div>
+            <ul class="menu-list">
+              <li><div><h4>Herby scrambled eggs</h4><p>Sourdough toast, crème fraîche, garden herbs</p></div><span>£10.50</span></li>
+              <li><div><h4>Roasted tomato toast</h4><p>Whipped ricotta, slow-roasted tomatoes, basil</p></div><span>£9.80</span></li>
+              <li><div><h4>Buttermilk pancakes</h4><p>Seasonal fruit, maple syrup, cultured butter</p></div><span>£11.00</span></li>
+              <li><div><h4>Granola &amp; yoghurt</h4><p>House granola, thick yoghurt, orchard fruit</p></div><span>£8.50</span></li>
+            </ul>
+            <p class="menu-footnote">Our imagined brunch menu is served until 2 pm.</p>
+          </article>
+        </div>
+        <p class="menu-disclaimer">Café Cahokia is a fictional café concept. Menu and prices are for illustration.</p>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="story-image-wrap">
+          <img
+            src="images/three_cups.png"
+            alt="Three cups of coffee"
+            loading="lazy"
+          />
+          <span class="image-caption">Made with AI</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">A small idea with a big heart</p>
+          <h2 id="story-title">A café for the<br /><em>in-between moments.</em></h2>
+          <p>
+            Café Cahokia began as a simple idea: what if a neighbourhood café felt like
+            a deep breath? Somewhere to meet a friend, read one more page, or enjoy a
+            quiet moment before the day gets going.
+          </p>
+          <p>
+            We imagine a thoughtful little menu, ingredients chosen with the seasons,
+            and a room that feels just as good on your own as it does with company.
+            Nothing complicated. Just the everyday things, done with care.
+          </p>
+          <p class="story-signoff">A warm welcome, whenever you need one. <span aria-hidden="true">♡</span></p>
+        </div>
+      </section>
+
+      <section class="visit-section section-wrap" id="visit" aria-labelledby="visit-title">
+        <div class="visit-heading">
+          <p class="eyebrow">The kettle’s on</p>
+          <h2 id="visit-title">Find your way<br /><em>to a slower moment.</em></h2>
+          <p>We’d love to welcome you in this little imagined corner of the world.</p>
+        </div>
+        <div class="visit-details">
+          <div class="visit-card">
+            <span class="visit-icon" aria-hidden="true">⌖</span>
+            <h3>Come find us</h3>
+            <p>42 Willow Lane<br />Cahokia, London, UK</p>
+            <p class="fiction-note">Fictional address for this concept website</p>
+          </div>
+          <div class="visit-card">
+            <span class="visit-icon" aria-hidden="true">✉</span>
+            <h3>Say hello</h3>
+            <p><a href="mailto:hello@cafecahokia.example">hello@cafecahokia.example</a><br /><a href="tel:+442000000000">+44 (0)20 0000 0000</a></p>
+            <p class="fiction-note">Fictional contact details</p>
+          </div>
+          <div class="visit-card hours-card">
+            <span class="visit-icon" aria-hidden="true">◷</span>
+            <h3>Opening hours</h3>
+            <dl class="hours-list">
+              <div><dt>Monday – Friday</dt><dd>8 am – 4 pm</dd></div>
+              <div><dt>Saturday – Sunday</dt><dd>9 am – 4 pm</dd></div>
+            </dl>
+            <p class="fiction-note">Imagined opening hours</p>
+          </div>
+          <div class="visit-card visit-image-card">
+            <img src="images/Front_cafe.png" alt="The front of Café Cahokia" loading="lazy" />
+            <span class="image-caption">Made with AI</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="wordmark footer-wordmark" href="#home">
+            <span class="wordmark-icon" aria-hidden="true"><span>c</span></span>
+            <span>Café Cahokia</span>
+          </a>
+          <p>Good coffee. Fresh pastries.<br />A little moment of calm.</p>
+        </div>
+        <div class="footer-links">
+          <p class="eyebrow">Take a little look</p>
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#story">Our Story</a>
+          <a href="#visit">Visit Us</a>
+        </div>
+        <div class="footer-contact">
+          <p class="eyebrow">A note or a hello</p>
+          <a href="mailto:hello@cafecahokia.example">hello@cafecahokia.example</a>
+          <p>42 Willow Lane, Cahokia, London<br />Fictional details for a concept website</p>
+        </div>
+        <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2026</span> Café Cahokia. A fictional café concept.</p>
+        <p>Thoughtfully imagined, for your next little pause.</p>
+      </div>
+    </footer>
+  </body>
+</html>
